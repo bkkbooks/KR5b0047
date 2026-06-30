@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0047/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0047/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上召諸龍神安鎮墳墓經
+  date: '2015-08-28 23:47:59.284550'
+  source:
+    repository: kanripo
+    path: KR5b0047
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0047_000-HFL.yaml, hash: 'sha256:7a5838a5f556bef4529e00507333350f778dc695d4275adb372c2d79194c227d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0047_000-HFL.markers.yaml, hash: 'sha256:303ec38c3f2247eb14bd6b28689777d310e5a1775a1dc76efcac3cfea40106c9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0047_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 638
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f2635c13973cd1744ab666613739dbc0f7f715ce4c8609331a7111f88a0ad46b
